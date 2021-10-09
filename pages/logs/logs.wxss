@@ -1,0 +1,6 @@
+.button {
+  margin-top: 50rpx;
+}
+.img {
+  width: 500rpx;
+}

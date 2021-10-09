@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view class="container">
+<image class="img" src="/img/index.jpg" mode="widthFix"></image>
+   <button class="button" bindtap="startGame"> 开始游戏 </button>
+   <button class="button" bindtap="rule"> 游戏介绍 </button>
+</view>

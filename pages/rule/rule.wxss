@@ -1,0 +1,14 @@
+/* pages/rule/rule.wxss */
+.detail {
+  width: 90%;
+  margin: 0 auto;
+}
+.title {
+  margin-bottom: 50rpx;
+  font-size: 80rpx;
+  text-align: center;
+}
+.img {
+  margin-top: 50rpx;
+  width: 800rpx;
+}

@@ -1,0 +1,25 @@
+<!--pages/game/game.wxml-->
+<view class='container'>
+  <view class='game-area'>
+    <view class='wan'>
+      <image src='{{image_1}}' class='img-1 {{move_1}}'></image>
+      <image src='{{image_2}}' class='img-2 {{move_2}}'></image>
+      <image src='{{image_3}}' class='img-3 {{move_3}}'></image>
+      <image src='{{image_4}}' class='img-4 {{move_4}}'></image>
+      <image src='{{image_5}}' class='img-5 {{move_5}}'></image>
+      <image src='{{image_6}}' class='img-6 {{move_6}}'></image>
+    </view>
+    <i-toast id="toast" />
+    <view class='game-start'>
+      <view class='button-area'>
+        <view class='game-share'>
+          <button class="start-button" bindtap='gameStart'>开始博饼</button>
+        </view>
+      </view>
+    </view>
+  </view>
+  <block wx:for="{{history}}" wx:key="index">
+    <view>第{{index + 1}}次 {{item.tips}}：{{item.his}}</view>
+</block>
+
+</view>

@@ -1,0 +1,300 @@
+/* pages/game/game.wxss */
+.container {
+  width: 100%;
+  height: 1335rpx;
+  /* background: url('http://wegame.xmfinger.com/images/bb-bg.png') no-repeat; */
+  background-size: contain;
+}
+
+.container .game-information {
+  position: relative;
+  top: 344rpx;
+  margin: 0 auto;
+  width: 450rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .game-information .left image{
+  width: 112rpx;
+  height: 111rpx;
+  border-radius: 10px;
+}
+
+.container .game-information .right {
+  width: 326rpx;
+  margin-left: 10rpx;
+}
+
+.container .game-information .right .integral,.container .game-information .right .leaderboard {
+  /* background: url('http://wegame.xmfinger.com/images/bb-jifen.png') no-repeat; */
+  background-size: contain;
+  height: 52rpx;
+  line-height: 52rpx;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.container .game-information .right .leaderboard {
+  margin-top: 8rpx;
+}
+
+.container .game-information .right .leaderboard strong,.container .game-information .right .integral strong{
+  font-size: 16px;
+  color: #ff6;
+}
+
+.container .game-information .text {
+  font-size: 12px;
+}
+
+.container .game-area {
+  height: 800rpx;
+}
+
+.container .game-area .wan {
+  /* background: url('http://wegame.xmfinger.com/images/wan.png') no-repeat; */
+  background-size: contain;
+  width: 559rpx;
+  height: 460rpx;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container .game-area .wan image {
+  width: 67.2rpx;
+  height: 68.8rpx;
+}
+
+.container .game-area .wan .img-1 {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+
+.container .game-area .wan .image-1 {
+  animation: rotateMove-1 1s linear;
+}
+
+.container .game-area .wan .img-2 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.container .game-area .wan .image-2 {
+  animation: rotateMove-2 1s linear;
+}
+
+.container .game-area .wan .img-3 {
+  position: absolute;
+  top: 42%;
+  left: 56%;
+}
+
+.container .game-area .wan .image-3 {
+  animation: rotateMove-3 1s linear;
+}
+
+.container .game-area .wan .img-4 {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+}
+
+.container .game-area .wan .image-4 {
+  animation: rotateMove-4 1s linear;
+}
+
+.container .game-area .wan .img-5 {
+  position: absolute;
+  top: 56%;
+  left: 45%;
+}
+
+.container .game-area .wan .image-5 {
+  animation: rotateMove-5 1s linear;
+}
+
+.container .game-area .wan .img-6 {
+  position: absolute;
+  top: 55%;
+  left: 63%;
+}
+
+.container .game-area .wan .image-6 {
+  animation: rotateMove-6 1s linear;
+}
+
+.container .game-area .share-attention {
+  display: flex;
+  width: 630rpx;
+  height: 60rpx;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.container .game-area .share-attention .share-it {
+  font-size: 13px;
+  background-color: transparent;
+  padding: 0;
+  line-height: 60rpx;
+  border: none;
+  margin: 0;
+  font-weight: 600;
+}
+
+.container .game-area .share-attention .share-it span {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px #b21212 solid;
+  position: absolute;
+  bottom: 10rpx;
+  right: 0;
+}
+
+.container .game-area .share-attention .attention {
+  line-height: 60rpx;
+  position: relative;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.container .game-area .share-attention .attention span {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px #b21212 solid;
+  position: absolute;
+  bottom: 10rpx;
+  left: 0;
+}
+
+.container .game-area .game-start {
+  width: 580rpx;
+  margin: 10rpx auto 0;
+}
+
+.container .game-area .game-start .button-area .game-share {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .game-area .game-start .button-area .game-share .share-it {
+  width: 131rpx;
+  height: 75rpx;
+  border-radius: 20px;
+}
+
+.container .game-area .game-start .button-area .game-share .share-it image {
+  width: 131rpx;
+  height: 75rpx;
+}
+
+.container .game-area .game-start .button-area .start-button {
+  /* background: url('http://wegame.xmfinger.com/images/botton-1.png') no-repeat; */
+  background-size: contain;
+  width: 361rpx;
+  height: 75rpx;
+  line-height: 75rpx;
+  color: #600;
+}
+
+.container .game-area .frequency {
+  color: #666;
+  font-size: 12px;
+  margin: 0 auto;
+  width: 500rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .game-area .frequency view {
+  display: inline-block;
+}
+
+.container .game-area .frequency view strong {
+  font-size: 14px;
+  color: #b31212;
+}
+
+.container .game-area .frequency image {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: text-top;
+  padding-top: 8rpx;
+}
+
+.container .mask {
+  width: 750rpx;
+  height: 1335rpx;
+
+  position: absolute;
+  top: 0;
+}
+
+@keyframes rotateMove-1 {
+0% {top: 14%;left: 20%;transform: rotate(0deg);}
+10% {top: 40%;left: 20%;transform: rotate(0deg);}
+25% {top: 20%;left: 40%;transform: rotate(180deg);}
+40% {top: 26%;left: 50%;transform: rotate(360deg);}
+60% {top: 40%;left: 55%;transform: rotate(720deg);}
+80% {top: 57%;left: 40%;transform: rotate(1080deg);}
+100% {top: 45%;left: 25%;transform: rotate(1440deg);}
+}
+
+@keyframes rotateMove-2
+{
+0% {top: 14%;left: 35%;transform: rotate(0deg);}
+10% {top: 40%;left: 35%;transform: rotate(0deg);}
+25% {top: 45%;left: 20%;transform: rotate(180deg);}
+40% {top: 51%;left: 40%;transform: rotate(360deg);}
+60% {top: 45%;left: 55%;transform: rotate(720deg);}
+80% {top: 40%;left: 40%;transform: rotate(1080deg);}
+100% {top: 40%;left: 40%;transform: rotate(1440deg);}
+}
+
+@keyframes rotateMove-3
+{
+0% {top:14%;left:50%;transform:rotate(0deg);}
+10% {top:40%;left:50%;transform:rotate(0deg);}
+25% {top:45%;left:20%;transform:rotate(180deg);}
+40% {top:28%;left:40%;transform:rotate(360deg);}
+60% {top:37%;left:55%;transform:rotate(720deg);}
+80% {top:45%;left:40%;transform:rotate(1080deg);}
+100% {top:42%;left:56%;transform:rotate(1440deg);}
+}
+
+@keyframes rotateMove-4
+{
+0% {top:28%;left:20%;transform:rotate(0deg);}
+10% {top:52%;left:20%;transform:rotate(0deg);}
+25% {top:34%;left:40%;transform:rotate(180deg);}
+40% {top:43%;left:50%;transform:rotate(360deg);}
+60% {top:54%;left:35%;transform:rotate(720deg);}
+80% {top:45%;left:20%;transform:rotate(1080deg);}
+100% {top:60%;left:30%;transform:rotate(1440deg);}
+}
+
+@keyframes rotateMove-5
+{
+0% {top:28%;left:35%;transform:rotate(0deg);}
+10% {top:52%;left:35%;transform:rotate(0deg);}
+25% {top:54%;left:50%;transform:rotate(180deg);}
+40% {top:34%;left:40%;transform:rotate(360deg);}
+60% {top:45%;left:35%;transform:rotate(720deg);}
+80% {top:55%;left:50%;transform:rotate(1080deg);}
+100% {top:56%;left:45%;transform:rotate(1440deg);}
+}
+
+@keyframes rotateMove-6
+{
+0% {top:28%;left:50%;transform:rotate(0deg);}
+10% {top:52%;left:50%;transform:rotate(0deg);}
+25% {top:40%;left:60%;transform:rotate(180deg);}
+40% {top:43%;left:30%;transform:rotate(360deg);}
+60% {top:57%;left:55%;transform:rotate(720deg);}
+80% {top:55%;left:30%;transform:rotate(1080deg);}
+100% {top:55%;left:63%;transform:rotate(1440deg);}
+}
